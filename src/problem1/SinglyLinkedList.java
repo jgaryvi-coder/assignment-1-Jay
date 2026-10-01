@@ -1,11 +1,11 @@
 package problem1;
 
 public class SinglyLinkedList {
-    private Node head;  // Head of the list[cite: 3]
-    private Node tail;  // Tail of the list[cite: 3]
-    private int size;   // Size of the list[cite: 3]
+    private Node head;
+    private Node tail;
+    private int size;
 
-    // Constructor to initialize an empty list[cite: 3]
+
     public SinglyLinkedList() {
         this.head = null;
         this.tail = null;
@@ -15,7 +15,7 @@ public class SinglyLinkedList {
     public boolean isEmpty() { return head == null; }
     public int size() { return size; }
 
-    // Standard addLast method adapted from the class slides[cite: 3]
+
     public void addLast(String data) {
         Node newNode = new Node(data);
         if (head == null) {

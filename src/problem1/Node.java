@@ -1,9 +1,9 @@
 package problem1;
 
-// Adapted from the class slides to use String instead of int[cite: 3]
+
 class Node {
-    private String data;    // Changed from int to String
-    private Node next;      // Pointer to the next node
+    private String data;
+    private Node next;
 
     // Constructor to initialize the node with data
     public Node(String data) {
