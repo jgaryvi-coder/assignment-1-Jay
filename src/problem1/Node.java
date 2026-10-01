@@ -1,6 +1,5 @@
 package problem1;
 
-
 class Node {
     private String data;
     private Node next;
